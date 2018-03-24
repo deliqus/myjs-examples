@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Web Page</h1>
+<p>My First Paragraph</p>
+
+<p id="demo"></p>
+
+<button onclick="zmentext()">Zmen text</button>
+
+<script>
+    document.getElementById("demo").innerHTML = 5 + 6;
+
+    function zmentext () {
+
+        document.getElementById("demo").innerText += 99;
+
+    }
+</script>
+
+</body>
+</html>
